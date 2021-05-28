@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(160, 140, 179);
+    color: white;
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.con{
+    background-color: teal;
+    padding: 5rem;
+    border-radius: 1rem;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;flex-direction: column;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    column-gap: 4rem;
+
+}
+.label{
+  font-weight: bold;  
+}
+.character{
+    display: flex;
+    align-items: center;
+}
+.number-input{
+    width: 8rem;
+}
+.passWord{
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    padding: 1rem;
+    border: 1px solid blue;
+    height: 2rem;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+}
+
+.btn{
+    grid-column: span 2;
+    border: 2px solid red;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: cadetblue;
+}
